@@ -1,0 +1,38 @@
+<div class="container mt-5">
+  <h1>Detalles de {{user.username}}</h1>
+
+  <hr>
+
+
+  <img src="{{user.profileImg}}" alt="user image">
+  <p>Email: {{user.email}}</p>
+  <p>Rol: {{user.role}}</p>
+
+
+
+  <a href="/lista-usuarios" class="btn btn-dark">Volver al listado</a>
+
+  {{#if isADMIN}}
+  <a href="/detalles/{{user._id}}/editar" class="btn btn-warning">Editar usuario </a>
+  <form action="/detalles/{{user._id}}/eliminar" method="POST" style="display: inline">
+    <input type="submit" value="Eliminar usuario" class="btn btn-danger">
+  </form>
+
+  <form action="/detalles/{{user._id}}/mejorar/EDITOR" method="POST" style="display: inline">
+    <input type="submit" value="Cambiar rol a Editor" class="btn btn-primary">
+  </form>
+  {{/if}}
+
+  {{#if iscurrentUser}}
+  <a href="/detalles/{{user._id}}/auto-edicion" class="btn btn-warning">Editar tus datos</a>
+  {{/if}}
+  <hr>
+  <ul>
+    <h1 class="mt-5 mb-5">Tus favoritos</h1>
+
+    {{#each user.favourites}}
+    <li>{{eventName}}</li>
+    <img class="mb-5" src="{{eventImg}}" alt="evento">
+    {{/each}}
+  </ul>
+</div>
