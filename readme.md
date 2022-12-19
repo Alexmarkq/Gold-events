@@ -1,4 +1,6 @@
-Auth routes
+# Yout can see a live version here --> https://goldevents.fly.dev/
+
+## Auth routes
 
 | HTTP Method 	| URI path              	  | Description            |  JSON |
 |:-------------:|-----------------------|:----------------------:|:---------:|
@@ -9,7 +11,7 @@ Auth routes
 | POST        	| `/login`              | Login user	           |           |
 | POST        	| `/logout`  	          | Logout user	           |           |
 
-USER routes
+## USER routes
 
 | HTTP Method 	| URI path                	| Description            |  JSON     |
 |:-------------:|---------------------------|:----------------------:|:----------:|
@@ -17,7 +19,7 @@ USER routes
 | GET         	| `/profile/edit`        | Edit user profile      |           |
 | POST         	| `/profile/edit`        | Edit user profile      |           |
 
-EDITOR routes
+## EDITOR routes
 
 | HTTP Method 	| URI path              	| Description            |  JSON     |
 |:-------------:|---------------------------|:----------------------:|:----------:|
@@ -25,7 +27,8 @@ EDITOR routes
 | POST         	| `/index-edit`             | Edit edit homepage     |           |
 
 
-ADMIN routes
+## ADMIN routes
+
 | HTTP Method 	| URI path              	| Description            |  JSON     |
 |:-------------:|---------------------------|:----------------------:|:----------:|
 | GET         	| `/user-list`              | View user list         |           |
@@ -33,7 +36,8 @@ ADMIN routes
 | GET         	| `/details/:user_id/edit`  | Edit user              |           |
 | POST         	| `/details/:user_id/edit`  | Edit user              |           |
 
-Events routes
+## Events routes
+
 | HTTP Method 	| URI path              	| Description            |  JSON     |
 |:-------------:|---------------------------|:----------------------:|:----------:|
 | GET         	| `/events/music`           | View music events      |           |
