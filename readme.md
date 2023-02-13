@@ -1,5 +1,6 @@
 ## Yout can see a live version here --> https://gold--events.fly.dev/
 
+
 ### Auth routes
 
 | HTTP Method 	| URI path              	  | Description            |  JSON |
