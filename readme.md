@@ -1,6 +1,6 @@
-# Yout can see a live version here --> https://goldevents.fly.dev/
+## Yout can see a live version here --> https://gold--events.fly.dev/
 
-## Auth routes
+### Auth routes
 
 | HTTP Method 	| URI path              	  | Description            |  JSON |
 |:-------------:|-----------------------|:----------------------:|:---------:|
@@ -11,7 +11,7 @@
 | POST        	| `/login`              | Login user	           |           |
 | POST        	| `/logout`  	          | Logout user	           |           |
 
-## USER routes
+### USER routes
 
 | HTTP Method 	| URI path                	| Description            |  JSON     |
 |:-------------:|---------------------------|:----------------------:|:----------:|
@@ -19,7 +19,7 @@
 | GET         	| `/profile/edit`        | Edit user profile      |           |
 | POST         	| `/profile/edit`        | Edit user profile      |           |
 
-## EDITOR routes
+### EDITOR routes
 
 | HTTP Method 	| URI path              	| Description            |  JSON     |
 |:-------------:|---------------------------|:----------------------:|:----------:|
@@ -36,7 +36,7 @@
 | GET         	| `/details/:user_id/edit`  | Edit user              |           |
 | POST         	| `/details/:user_id/edit`  | Edit user              |           |
 
-## Events routes
+### Events routes
 
 | HTTP Method 	| URI path              	| Description            |  JSON     |
 |:-------------:|---------------------------|:----------------------:|:----------:|
