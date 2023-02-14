@@ -1,4 +1,4 @@
-## Yout can see a live version here --> https://gold--events.fly.dev/
+## You can see a live version here --> https://gold--events.fly.dev/
 
 
 ### Auth routes
